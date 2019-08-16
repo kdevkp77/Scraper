@@ -49,12 +49,13 @@
     "zlib": "^1.0.5"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^6.2.0",
     "should": "^13.2.3"
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "keywords": [],
   "author": "",

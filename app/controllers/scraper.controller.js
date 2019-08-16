@@ -8,7 +8,7 @@ class ScrapController {
   async getData(targetUrl) {
     // const result = await axios.get(url);
     const { body: html, url } = await got(targetUrl)
-    return await scrapService.getData({ html, url });
+    await scrapService.getData({ html, url });
   }
 }
 

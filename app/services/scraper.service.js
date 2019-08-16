@@ -1,7 +1,7 @@
 'use strict';
  
 // const cheerio = require('cheerio');
-
+const logger = require('../lib/logger');
 class ScrapService {
   constructor() {}
   async getData(html) {
@@ -23,6 +23,7 @@ class ScrapService {
       //       link: $(elem).find('a.storylink').attr('href')
       //     });
       //   });   
+      logger.info(metadata);
       resolve(metadata);
     });
   }

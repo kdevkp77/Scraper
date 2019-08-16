@@ -10,7 +10,7 @@ class Scrap {
   constructor() {}
   async scrap() {
     const targetUrl = 'https://www.adastria.co.jp/english/';
-    scrapAPI.getData(targetUrl);
+    await scrapAPI.getData(targetUrl);
   }
 }
 module.exports = new Scrap();
