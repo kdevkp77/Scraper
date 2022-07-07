@@ -33,7 +33,7 @@
     "metascraper-image": "^5.6.5",
     "metascraper-title": "^5.6.5",
     "method-override": "^3.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.25",
     "morgan": "^1.9.1",
     "node-cron": "^2.0.3",
